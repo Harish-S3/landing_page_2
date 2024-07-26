@@ -200,22 +200,24 @@ nav.sticky .menu-btn{
     background: url('../images/bg-mobile.jpg') no-repeat center center;
     background-size: cover;
 
-    .home .text-one {
+    .text{
+      marign-top:10px;
+    }
+
+  .text-one {
       font-size: 15px;
     }
   
-    .home .text-two {
+    .text-two {
       font-size:20px;
       margin-left: 0;
     }
   
-    .home .text-three {
+    .text-three {
       font-size: 15px;
       margin: 10px 0;
     }
-}
-  section{
-  padding-top: 15px;
+
 }
 }
 
