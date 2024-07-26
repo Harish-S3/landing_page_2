@@ -170,6 +170,7 @@ nav.sticky .menu-btn{
   background: url('../images/bg.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
+  z-index=1;
 }
 
 /* Media queries for responsiveness */
