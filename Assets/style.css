@@ -167,10 +167,10 @@ nav.sticky .menu-btn{
 /* Add this to your style.css file */
 /* General styles for the background image */
 .home {
-  background: url('../images/bg.jpg') no-repeat center center;
+  background: url('/images/bg.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
-  z-index=1;
+  z-index: 1;
 }
 
 /* Media queries for responsiveness */
@@ -197,24 +197,24 @@ nav.sticky .menu-btn{
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   .home {
     background: url('../images/bg-mobile.jpg') no-repeat center center;
     background-size: cover;
-     .home .text {
-      margin-top:5px;
+     .text {
+      margin-top:10px;
 
      }
-    .home .text-one {
+    .text-one {
       font-size: 15px;
     }
   
-    .home .text-two {
+    .text-two {
       font-size:20px;
       margin-left: 0;
     }
   
-    .home .text-three {
+    .text-three {
       font-size: 15px;
       margin: 10px 0;
     }
