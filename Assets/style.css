@@ -110,7 +110,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("../images/bg.jpg") no-repeat;
+  background: url("images/bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -167,7 +167,7 @@ nav.sticky .menu-btn{
 /* Add this to your style.css file */
 /* General styles for the background image */
 .home {
-  background: url('../images/bg.jpg') no-repeat center center;
+  background: url('/images/bg.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
@@ -187,40 +187,42 @@ nav.sticky .menu-btn{
   }
 }
 
+/* Adjust text alignment for mobile */
 @media (max-width: 768px) {
   .home {
     background-position: center;
     background-size: cover;
   }
-}
 
+}
 
 @media (max-width: 576px) {
   .home {
     background: url('../images/bg-mobile.jpg') no-repeat center center;
     background-size: cover;
+     .home .text {
+      margin-top:10px;
 
-    .text{
-      marign-top:10px;
-    }
-
-  .text-one {
+     }
+    .home .text-one {
       font-size: 15px;
     }
   
-    .text-two {
+    .home .text-two {
       font-size:20px;
       margin-left: 0;
     }
   
-    .text-three {
+    .home .text-three {
       font-size: 15px;
       margin: 10px 0;
     }
+}
+section{
+  padding-top: 15px;
+}
 
 }
-}
-
 
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
