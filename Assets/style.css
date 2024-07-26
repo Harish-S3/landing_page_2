@@ -115,6 +115,7 @@ nav.sticky .menu-btn{
   background-position: center;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
+  z-index:1;
 }
 .home .home-content{
   width: 90%;
@@ -141,12 +142,7 @@ nav.sticky .menu-btn{
 }
 
 /* General styles for the background image */
-.home {
-  background: url('/images/bg.jpg') no-repeat center center;
-  background-size: cover;
-  height: 100vh;
-  z-index: 1;
-}
+
 
 /* Media queries for responsiveness */
 @media (max-width: 1200px) {
