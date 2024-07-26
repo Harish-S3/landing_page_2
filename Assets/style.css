@@ -199,10 +199,6 @@ nav.sticky .menu-btn{
   .home {
     background: url('../images/bg-mobile.jpg') no-repeat center center;
     background-size: cover;
-  
- .home .text {
-    padding-top: 15px; /* Add padding to avoid text overlap */
-  }
 
     .home .text-one {
       font-size: 15px;
