@@ -200,8 +200,8 @@ nav.sticky .menu-btn{
     background: url('../images/bg-mobile.jpg') no-repeat center center;
     background-size: cover;
   
- .home .home-content {
-    padding: 20px; /* Add padding to avoid text overlap */
+ .home .text {
+    padding-top: 15px; /* Add padding to avoid text overlap */
   }
 
     .home .text-one {
